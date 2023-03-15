@@ -43,6 +43,10 @@ const userSchma = new Schema({
     password:{
         type:String,
         required:true
+    },
+    verifed:{
+        type:Boolean,
+        default:false
     }
 })
 
