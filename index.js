@@ -4,7 +4,7 @@ require('dotenv').config()
 app.use(express.json())
 const  dbConnection  = require('./config/db');
 
-const router = require('./routes/index.js')
+const router = require('./routers/index.js')
 
 dbConnection();
 app.use(router);
